@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600");
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif; }
+
+section#home {
+  background: #a2a2a2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  section#home .logo-container {
+    height: 80vh;
+    max-width: 60vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    section#home .logo-container .logo {
+      border-radius: 50%;
+      width: 80%;
+      transition: transform 16000ms ease-in-out; }
+      section#home .logo-container .logo:hover {
+        transform: rotateZ(calc(720deg*60)); }
+      section#home .logo-container .logo img {
+        border-radius: 50%;
+        width: 100%; }
+    section#home .logo-container .main-container {
+      color: #333;
+      margin-top: 3rem;
+      text-align: center; }
+      section#home .logo-container .main-container .title h1 {
+        font-size: 2.4rem;
+        font-weight: 300;
+        margin: 0; }
+      section#home .logo-container .main-container .menu-container {
+        display: flex;
+        justify-content: center; }
+        section#home .logo-container .main-container .menu-container ul {
+          list-style: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+          margin: 0;
+          padding: 0; }
+          section#home .logo-container .main-container .menu-container ul li {
+            font-size: 1.4rem;
+            font-weight: 100;
+            color: #666; }
