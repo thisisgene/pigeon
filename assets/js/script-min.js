@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".menu-link").click(function(n){$(".home-wrapper").addClass("post-intro")})});
