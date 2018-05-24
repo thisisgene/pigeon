@@ -113,7 +113,7 @@ section#home
       flex-direction: column
       justify-content: center
       align-items: center
-      width: 340px
+      width: 300px
       transition: opacity 300ms ease-in-out
       .logo
         width: 100%
@@ -145,8 +145,23 @@ section#home
               size: 1.3rem
               weight: 100
             letter-spacing: 10px
-            color: #bbb
+            color: #fff
             text-transform: uppercase
+
+            &.light
+              text-transform: none
+              color: #666
+              font-size: 1rem
+              margin-bottom: 1rem
+
+          a
+            color: #333
+            //font-weight: 700
+            &:hover
+              display: block
+              color: #fff
+              transform: scale(1.2)
+              text-shadow: 0 0 3px white, 0 0 13px pink, 0 0 23px pink, 0 0 33px pink, 0 0 50px pink, 0 0 60px pink
         .menu-container
           display: flex
           justify-content: center
