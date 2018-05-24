@@ -126,9 +126,9 @@ section#home {
             font-size: 1rem;
             margin-bottom: 1rem; }
         section#home .home-wrapper .logo-container .intro-main-container .title a {
-          color: #333; }
+          color: #333;
+          display: block; }
           section#home .home-wrapper .logo-container .intro-main-container .title a:hover {
-            display: block;
             color: #fff;
             transform: scale(1.2);
             text-shadow: 0 0 3px white, 0 0 13px pink, 0 0 23px pink, 0 0 33px pink, 0 0 50px pink, 0 0 60px pink; }
