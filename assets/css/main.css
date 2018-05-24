@@ -99,14 +99,14 @@ section#home {
       section#home .home-wrapper .logo-container .logo {
         width: 100%;
         margin-bottom: 1rem;
-        transition: all 1600ms ease-in-out;
         transform-origin: center; }
-        section#home .home-wrapper .logo-container .logo:hover {
-          transform: scale(1.1);
-          filter: hue-rotate(360deg) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.4)) saturate(200%); }
         section#home .home-wrapper .logo-container .logo img {
           border-radius: 50%;
-          width: 100%; }
+          width: 100%;
+          transition: all 1600ms ease-in-out; }
+          section#home .home-wrapper .logo-container .logo img:hover {
+            transform: scale(1.1);
+            filter: hue-rotate(360deg) drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.4)) saturate(200%); }
       section#home .home-wrapper .logo-container .intro-main-container {
         color: #333;
         bottom: 7rem;
